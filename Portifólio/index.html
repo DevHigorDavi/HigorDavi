@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hígor Davi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo_portifolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <nav class="menu-desktop">
+        <img src="img/logo_portifolio.png" alt="">
+        <a class="menu-link" href="#inicio">Início</a>
+        <a class="menu-link" href="#sobre">Sobre</a>
+        <a class="menu-link" href="#habilidades">Habilidades</a>
+        <a class="menu-link" href="#projetos">Projetos</a>
+        <a class="menu-link" href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <section class="apresentacao">
+                <h1 class="reveal-text">Hígor Davi</h1>
+                <p id="texto-push" class="reveal-text">
+                    SOU UM DESENVOLVEDOR FULL STACK, QUE BUSCA APRENDER E DESENVOLVER SITES COM DESIGNS
+                </p>
+                <p id="texto-push2" class="reveal-text">
+                    ÚNICOS, INOVADORES E MODERNOS.
+                </p>
+            </section>
+
+            <img src="img/modelo.png" class="imagem-modelo" alt="">
+        </section>
+        <section class="button-previa">
+            <section class="indicar">
+                <i class="fa-solid fa-arrow-down"></i>
+            </section>
+            <a href="#sobre">Ver mais...</a>
+        </section>
+
+        <section id="sobre">
+            <img src="img/image_dev.png" alt="" class="imagem-dev">
+            <section class="cards">
+                 <section class="card-sobre">
+                    <h1>Quem sou eu?</h1>
+                    <p>Sou um desenvolvedor Full Stack apaixonado por transformar ideias complexas em interfaces
+                        intuitivas e sistemas robustos. Meu foco é unir a precisão do back-end com a fluidez do
+                        front-end para criar experiências digitais que não apenas funcionam, mas encantam o usuário.
+                        Estou sempre em busca de novos desafios e tecnologias para elevar o padrão de cada projeto.</p>
+                </section>
+            </section>
+        </section>
+
+        <section id="habilidades">
+             <section class="secao-blur" id="habilidades">
+            <h1 data-i18n="habilidades_titulo">Habilidades</h1>
+            <ul class="lista-habilidades">
+                <li class="item-blur">HTML</li>
+                <li class="item-blur">CSS</li>
+                <li class="item-blur">JS</li>
+                <li class="item-blur">JAVA</li>
+                <li class="item-blur">REACT.JS</li>
+                <li class="item-blur">MYSQL</li>
+                <li class="item-blur">PYTHON</li>
+                <li class="item-blur">DESIGN</li>
+                <li class="item-blur">INOVAÇÃO</li>
+                <li class="item-blur">CRIATIVIDADE</li>
+            </ul>
+        </section>
+        </section>
+
+           <section class="secao-linha-do-tempo" id="projetos">
+            <h1 class="titulo-projetos" data-i18n="projetos_titulo">Projetos</h1>
+            <ul class="lista-timeline">
+                <li class="item-timeline esquerda fade-up">
+                    <div class="conteudo">
+                        <img src="img/restaurante.png" alt="Restaurante" class="imagem-card">
+                        <div class="texto-card">
+                            <h2 data-i18n="proj_1_tit">Restaurante</h2>
+                            <p data-i18n="proj_1_desc">Landing page para restaurante</p>
+                            <a href="https://hamburgueriaprj.netlify.app/" class="botao-projeto"
+                                data-i18n="btn_ver">Ver</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="item-timeline direita fade-up">
+                    <div class="conteudo">
+                        <img src="img/keepstoque_inicial.jpg" alt="Estoque" class="imagem-card">
+                        <div class="texto-card">
+                            <h2 data-i18n="proj_2_tit">Controle de estoque</h2>
+                            <p data-i18n="proj_2_desc">Dashboard para controle de estoque</p>
+                            <a href="https://hamburgueriaprj.netlify.app/" class="botao-projeto"
+                                data-i18n="btn_ver">Ver</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="infos">
+        <a class="menu-link" href="#inicio">Início</a>
+        <a class="menu-link" href="#sobre">Sobre</a>
+        <a class="menu-link" href="#habilidades">Habilidades</a>
+        <a class="menu-link" href="#projetos">Projetos</a>
+        <a class="menu-link" href="#contato">Contato</a>
+        </section>
+
+         <div class="social-links" id="contato">
+                    <a href="https://github.com/DevHigorDavi" target="_blank" class="social-icon github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/dev.higordavi/?utm_source=ig_web_button_share_sheet" target="_blank" class="social-icon instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/h%C3%ADgor-davi/" target="_blank" class="social-icon linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+    </footer>
+    <script>
+        // Função para transformar texto em spans individuais
+        function aplicarEfeitoPush(seletor) {
+            const elemento = document.querySelector(seletor);
+            const texto = elemento.innerText;
+            elemento.innerHTML = ''; // Limpa o texto original
+
+            texto.split('').forEach((letra, i) => {
+                const span = document.createElement('span');
+                // Se for espaço, usamos o código de espaço HTML para não quebrar o layout
+                span.innerHTML = letra === ' ' ? '&nbsp;' : letra;
+                // Define um atraso (delay) crescente para cada letra
+                span.style.animationDelay = `${i * 0.03}s`;
+                elemento.appendChild(span);
+            });
+        }
+
+        // Aplica o efeito no título e no parágrafo
+        function aplicarEfeitoPush(seletor, delayExtra = 0) {
+            const elemento = document.querySelector(seletor);
+            const texto = elemento.innerText;
+            elemento.innerHTML = '';
+
+            texto.split('').forEach((letra, i) => {
+                const span = document.createElement('span');
+                span.innerHTML = letra === ' ' ? '&nbsp;' : letra;
+                span.style.animationDelay = `${delayExtra + i * 0.03}s`;
+                elemento.appendChild(span);
+            });
+        }
+
+        aplicarEfeitoPush('h1');
+
+        const totalLetrasH1 = document.querySelector('h1').innerText.length;
+        const delayTexto1 = totalLetrasH1 * 0.03 + 0.8;
+
+        aplicarEfeitoPush('#texto-push', delayTexto1);
+
+        const totalLetrasP1 = document.querySelector('#texto-push').innerText.length;
+        const delayTexto2 = delayTexto1 + totalLetrasP1 * 0.03 + 0.8;
+
+        aplicarEfeitoPush('#texto-push2', delayTexto2);
+        const totalLetrasP2 = document.querySelector('#texto-push2').innerText.length;
+        const delayMenu = delayTexto2 + totalLetrasP2 * 0.03 + 0.8;
+
+        document.querySelectorAll('.menu-link').forEach((link, index) => {
+            const delayCadaLink = delayMenu + index * 0.3;
+            aplicarEfeitoPush(`.menu-link:nth-child(${index + 2})`, delayCadaLink);
+        });
+
+    
+    </script>
+</body>
+
+</html>
